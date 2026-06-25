@@ -26,7 +26,7 @@ for l=1:s
             end
             v2=v2+pos(j);
             v1=[v1;v1(1,:)]; v2=[v2;v2(1,:)];
-            plot3(v1,v2,10*ones(size(v1)),'r-',LineWidth=1.8)
+            plot3(v1,v2,100*ones(size(v1)),'r-',LineWidth=1.8)
         elseif strcmp(Tmat{shape(j)}.shape.name,'dir_poly')
             v1=Tmat{shape(j)}.param.vertices(:,1);
             if refl(j) == 1
@@ -36,7 +36,7 @@ for l=1:s
             end
             v2=v2+pos(j);
             v1=[v1;v1(1,:)]; v2=[v2;v2(1,:)];
-            plot3(v1,v2,10*ones(size(v1)),'r-',LineWidth=1.8)
+            plot3(v1,v2,100*ones(size(v1)),'r-',LineWidth=1.8)
         end
         hold on
     end
