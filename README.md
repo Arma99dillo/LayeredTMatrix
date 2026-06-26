@@ -12,7 +12,7 @@ Experiment scripts:
 -
 The following files contain the main code to run all the experiments in Section 6 of the paper, allowing to reproduce the figures therein:
 * The files `pConvergenceTwoFlatLayers.m`, `pConvergenceRelative.m` and `MConvergenceRelative.m` are used to derive the _p_- and _M_-convergence plots in the numerical experiments of the paper;
-* The file `RepeatedShapes.m` is used to generate the field plots whene there are repeated layers;
+* The file `RepeatedShapes.m` is used to generate the field plots when there are repeated layers;
 * The file `ComputationalTimesComparison.m` compares the TDG T-matrix method performance with the DtN-TDG method available at https://github.com/Arma99dillo/DtN-TDG;
 * The file `BraggReflector.m` generates the plots for the distributed Bragg reflector structure used in the comparison tests with the RCWA method.
 
